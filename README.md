@@ -4,6 +4,7 @@
 
 # Example
 
+```python
 from bwclient.client import *
 
 
@@ -19,3 +20,4 @@ client.send_to_ms('0xff', b'Hello World')
 print(client.reacv_from_ms(0xff))
 
 client.close()
+```
